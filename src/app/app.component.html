@@ -1,0 +1,16 @@
+﻿<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-sm-8 col-sm-offset-2">
+            <nav>
+                <a routerLink="/home">Home</a>
+                <a [routerLink]="['/login']" [ngClass]="{hidden: isUserLoggedIn}">Login</a>
+                <a [routerLink]="['/register']" [ngClass]="{hidden: isUserLoggedIn}">Register</a>
+                <a [routerLink]="['/profile']">Profile</a>
+                <a [routerLink]="['/login']" [ngClass]="{hidden: !isUserLoggedIn}">Logout</a>
+            </nav>
+            <app-alert></app-alert>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
