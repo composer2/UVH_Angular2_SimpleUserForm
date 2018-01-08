@@ -1,5 +1,5 @@
 # How to start it
-* git clone https://github.com/composer2/Simple-Weather-App.git
+* git clone https://github.com/composer2/UVH_Angular2_SimpleUserForm
 * npm install;
 * npm start; (note the server is running on PORT 4200 if it's busy it won't start)
 
