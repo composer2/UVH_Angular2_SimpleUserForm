@@ -1,0 +1,282 @@
+#app-component {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#logo {
+    position: relative;
+}
+
+#profile {
+    background-color: #F69931;
+}
+
+#profile>a:hover {
+    background-color: #F69931;
+}
+
+#give {
+    color: #4A659F;
+}
+
+#win {
+    color: #F69931
+}
+
+.navbar-brand {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn-round {
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: white;
+    color: #959595;
+    font-weight: 900;
+}
+
+.btn-round:hover {
+    border: 1px solid #2C5093;
+    color: #2C5093;
+    background-color: white;
+}
+
+.btn-round-lg {
+    margin-top: 5px;
+    border-radius: 50%;
+    height: 45px;
+    border: 1px solid white;
+    background-color: #2E5093;
+    color: #959595;
+    font-weight: 900;
+}
+
+.btn-round-lg:hover {
+    display: block;
+    color: white;
+    background-color: #2E5093;
+}
+
+.glyphicon-align-justify {
+    display: inline-block;
+    color: white;
+    top: -4px;
+    font-size: 20px;
+}
+
+.glyphicon-align-justify:hover {
+    color: #959595;
+}
+
+.fa {
+    color: #959595;
+    background-color: white;
+    font-size: 14px;
+}
+
+.social:hover {
+    background-color: white;
+}
+
+.fa:hover {
+    color: #2E5093;
+    background-color: white;
+}
+
+#downNav {
+    background-color: #F69931;
+    margin: 0;
+    padding: 0;
+    width: 98.7%;
+    height: 90px;
+    margin-top: -5px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#upperNav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.my-profile {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.my-profile:hover {
+    color: #2E5093;
+}
+
+.navbar-right {
+    padding-right: 30px;
+}
+
+.navbar-right li>a {
+    color: white;
+    background-color: #F69931;
+}
+
+.navbar-right li>a:hover {
+    background-color: #F69931;
+    color: #2C5093;
+}
+
+@media screen and (min-width: 320px) {
+    .navbar-header>a {
+        float: right;
+        position: absolute;
+        top: 8px;
+        left: 50px;
+    }
+    .btn-round-lg {
+        display: none;
+    }
+    #downNav {
+        width: 99.4%;
+        height: 90px;
+        margin-top: -8px;
+        margin-left: 1px;
+        padding-top: 0px;
+        padding-left: 32px;
+    }
+    .social-icons {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .profile {
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .social-icons {
+        margin-left: 25px;
+    }
+    .navbar-header>a {
+        float: right;
+        position: absolute;
+        top: 8px;
+        left: 80px;
+    }
+    #logo {
+        left: 30px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .social-icons {
+        margin-left: 35px;
+    }
+    .navbar-header>a {
+        float: right;
+        position: absolute;
+        top: 8px;
+        left: 100px;
+    }
+    #logo {
+        left: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-header>a {
+        clear: both;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #logo {
+        left: 0px;
+    }
+    .btn-round-lg {
+        display: none;
+    }
+    #downNav {
+        width: 96.6%;
+        height: 90px;
+        margin-top: -8px;
+        margin-left: 1px;
+        padding-top: 0px;
+        padding-left: 32px;
+    }
+    .social-icons {
+        display: block;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-header>a {
+        clear: both;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .btn-round-lg {
+        display: block;
+    }
+    #downNav {
+        width: 98.2%;
+        height: 90px;
+        margin-top: -3px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-left: 32px;
+    }
+    .social-icons {
+        display: block;
+        margin-left: 0px;
+    }
+    #profile {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #downNav {
+        width: 97.6%;
+        /* 98.7% */
+        height: 90px;
+        margin-top: -3px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-left: 32px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .navbar-nav li a {
+        font-size: 30px;
+    }
+    .navbar-nav li a i {
+        font-size: 30px;
+    }
+    .my-profile {
+        font-size: 30px;
+    }
+    .navbar-nav {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #downNav {
+        width: 99.3%;
+        height: 120px;
+    }
+    #win {
+        font-size: 40px;
+    }
+    #give {
+        font-size: 40px;
+    }
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+}
